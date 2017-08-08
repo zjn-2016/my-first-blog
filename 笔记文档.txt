@@ -1,0 +1,7 @@
+1.关于应用的创建：
+    //创建应用主体框架
+    python manage.py startapp blog
+    //创建模型（在主配置中添加你的应用，并且编写models.py）建表
+    python manage.py makemigrations blog
+    //数据迁移
+    python manage.py migrate blog
